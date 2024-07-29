@@ -12,10 +12,7 @@ Welcome to the this project. It deals with understanding the pace, pattern and p
 
 ## Data used in the study
 All the data would be present in the "data" directory.
-Within the "data" directory, there are three folders.
-```{r}
-list.dirs("./data")
-```
+
 ### Phylogenetic trees
 The "all_trees" folder as the name suggests contains all the dated phylogenetic trees of the clades of our interest. These files were used the analyses that involved using the homogeneous birth-death models of package RPANDA and to run the CoMET (CPP on Mass Extinction Time) analysis. Few of the clades used in our analysis have smaller clade size and it has been seen that diversification estimates show more uncertainty with smaller clades. Hence, in addition to using the homogenous birth-death model from RPANDA and the CoMET analysis, we analysed our data using a hetergenous birth-death model - ClaDS (Cladogenetic Diverisification rate Shift) model. And, this model was implemented on larger trees which contained those small clades of our interest and those "super trees" were kept in the "all_trees_or_super_trees" folder. For clades with fairly large clade size we have used the same phylogenetic tree as is present in the "all_trees" folder.
 
@@ -31,9 +28,7 @@ Outside these folders the file - "Final_summary_updated.csv" summary information
 
 ## Codes
 All the relevant codes are present in the "codes" folder. Here is the list of all the codes.
-```{r}
-list.files("./codes")
-```
+
 Although the code names are self-explanatory, here's a brief account of the actions that the codes would perform:
 
 "1_spline_interpolation_PR_JJ.R" - for smoothing the paleoclimatic variables used in the analyses
