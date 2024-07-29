@@ -17,12 +17,6 @@ The "all_trees" folder as the name suggests contains all the dated phylogenetic 
 
 Paleoclimate data includes global paleotemperature (for the cenozoic era), Himalayan elevation, Expansion of C4-plants through time. The "paleoclimate_data" folder doesn't however include the temperature data. It is available in the RPANDA package
 ```{r}
-library(nlme)
-library(ape)
-library(lattice)
-library(permute)
-library(vegan)
-library(picante)
 library(RPANDA)
 data(InfTemp)
 head(InfTemp)
