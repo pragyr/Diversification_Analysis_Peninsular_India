@@ -1,6 +1,7 @@
 # Diversification in the Peninsular Indian Plate
-
-Pragyadeep Roy, Jahnavi Joshi
+## Authors
+- Pragyadeep Roy
+- Jahnavi Joshi
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
