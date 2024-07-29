@@ -4,7 +4,7 @@
 - Jahnavi Joshi
 
 Hello,
-Welcome to the this project. This project deals with understanding the pace, pattern and predictors of in-situ diversification in the Peninsular Indian Plate (PIP). The data that we have used in the project includes dated tree files and paleoclimate data.
+Welcome to the this project. It deals with understanding the pace, pattern and predictors of in-situ diversification in the Peninsular Indian Plate (PIP). The data that we have used in the project includes dated tree files and paleoclimate data.
 
 ## Data used in the study
 All the data would be present in the "data" directory.
