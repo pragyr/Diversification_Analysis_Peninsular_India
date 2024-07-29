@@ -30,6 +30,7 @@ All the relevant codes are present in the "codes" folder. Here is the list of al
 list.files("./codes")
 ```
 Although the code names are self-explanatory, here's a brief account of the actions that the codes would perform:
+
 "1_spline_interpolation_PR_JJ.R" - for smoothing the paleoclimatic variables used in the analyses
 
 "2_COMET_analysis_and_CRABS_PR_JJ.R" - for performing the CoMET analysis, to extract information about diverisification rates (speciation and extinction) through time and times of strong episodic rate shifts, and to assess congruence classes using the CRABS analysis
