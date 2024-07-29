@@ -3,7 +3,8 @@
 - Pragyadeep Roy
 - Jahnavi Joshi
 
-## Relevant Manuscript Title: Idiosyncrasies unveiled: examining the pace, patterns and predictors of biotic diversification in peninsular India
+## Relevant Manuscript Title:
+Idiosyncrasies unveiled: examining the pace, patterns and predictors of biotic diversification in peninsular India
 
 Hello,
 Welcome to the this project. It deals with understanding the pace, pattern and predictors of in-situ diversification in the Peninsular Indian Plate (PIP). The data that we have used in the project includes dated tree files and paleoclimate data.
