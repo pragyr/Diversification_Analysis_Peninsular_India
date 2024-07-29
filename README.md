@@ -16,9 +16,10 @@ Within the "data" directory, there are three folders.
 ```{r}
 list.dirs("./data")
 ```
-
+### Phylogenetic trees
 The "all_trees" folder as the name suggests contains all the dated phylogenetic trees of the clades of our interest. These files were used the analyses that involved using the homogeneous birth-death models of package RPANDA and to run the CoMET (CPP on Mass Extinction Time) analysis. Few of the clades used in our analysis have smaller clade size and it has been seen that diversification estimates show more uncertainty with smaller clades. Hence, in addition to using the homogenous birth-death model from RPANDA and the CoMET analysis, we analysed our data using a hetergenous birth-death model - ClaDS (Cladogenetic Diverisification rate Shift) model. And, this model was implemented on larger trees which contained those small clades of our interest and those "super trees" were kept in the "all_trees_or_super_trees" folder. For clades with fairly large clade size we have used the same phylogenetic tree as is present in the "all_trees" folder.
 
+### Paleoclimatic data
 Paleoclimate data includes global paleotemperature (for the cenozoic era), Himalayan elevation, Expansion of C4-plants through time. The "paleoclimate_data" folder doesn't however include the temperature data. It is available in the RPANDA package
 ```{r}
 library(RPANDA)
@@ -28,7 +29,7 @@ head(InfTemp)
 
 Outside these folders the file - "Final_summary_updated.csv" summary information about the identity of each of the lineages and the corresponding inference about its diversification. More details about the analyses can be found in the supplementary information of the study. The "SUPER_TREE.tre" file is a dated phylogenetic tree connecting all the clades used in the study. It was generated in [www.timetree.org](www.timetree.org) and also using the information in the clades and respective studies and was used in one of the analysis (PGLS) in the study.
 
-### Codes
+## Codes
 All the relevant codes are present in the "codes" folder. Here is the list of all the codes.
 ```{r}
 list.files("./codes")
