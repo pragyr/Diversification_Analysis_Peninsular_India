@@ -3,10 +3,6 @@
 - Pragyadeep Roy
 - Jahnavi Joshi
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 Hello,
 Welcome to the this project. This project deals with understanding the pace, pattern and predictors of in-situ diversification in the Peninsular Indian Plate (PIP). The data that we have used in the project includes dated tree files and paleoclimate data.
 
