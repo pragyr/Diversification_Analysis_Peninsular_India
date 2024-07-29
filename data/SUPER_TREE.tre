@@ -1,0 +1,22 @@
+#NEXUS
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=34;
+	TAXLABELS
+		Gegeneophis Nyctibatrachidae Pseudophilautus Raorchestes Ranixalidae Microhyla2 Microhyla1 Uperodon Hemidactylus               
+ Dravidogecko Hemiphyllodactylus Geckoella 
+ Cnemaspis  Eutropis   Uropeltids                 
+ Ahaetullinae                Gerrhopilus                 Fan-Throated               
+ Ophisops   Montecincla                 Testudines                 
+ Heterometrinae              Rhysida_longipes_complex    Rhysida_immarginata_complex
+ Ethmostigmus                Digitipes  Indonaia  
+ Parreysia  Lamellidens                 Piper_group_1              
+ Piper_group_2               Acanthaceae                 Ceropegiae                 
+ Memecylon 
+	;
+
+END;
+
+begin trees;
+	tree tree_1 = [&R] ((((Gegeneophis:319.67305,((Nyctibatrachidae:60.89,((Pseudophilautus:31.1,Raorchestes:31.1):27.83,Ranixalidae:58.93):1.96):51.0601,((Microhyla2:32.5379,Microhyla1:32.5379):20.5821,Uperodon:53.12):58.8301):207.72295):32.013534,((((((Hemidactylus:58.0,Dravidogecko:58.0):14.85169,Hemiphyllodactylus:72.85169):2.67109,Geckoella:75.52278):3.18947,Cnemaspis:78.71225):110.57769,(Eutropis:173.54365,((((Uropeltids:85.77443,Ahaetullinae:85.77443):38.18137,Gerrhopilus:123.9558):37.07961,Fan-Throated:161.03541):5.85832,Ophisops:166.89373):6.64992):15.74629):90.54156,(Montecincla:261.37,Testudines:261.37):18.4615):71.855084):355.917818,((Heterometrinae:563.30903,(((Rhysida_longipes_complex:155.0176,Rhysida_immarginata_complex:155.0176):27.235,Ethmostigmus:182.2526):12.7445,Digitipes:194.9971):368.31193):128.21327,((Indonaia:111.129314,Parreysia:111.129314):23.500374,Lamellidens:134.629688):556.892612):16.082102):890.840367,((Piper_group_1:50.8214,Piper_group_2:50.8214):112.43304,((Acanthaceae:93.90774,Ceropegiae:93.90774):31.21186,Memecylon:125.1196):38.13484):1435.190329);
+end;
