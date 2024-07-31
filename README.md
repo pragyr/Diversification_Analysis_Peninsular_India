@@ -45,3 +45,5 @@ Although the code names are self-explanatory, here's a brief account of the acti
 "6_pulled_diversification_rates_finding_optimal_age_gridding.R" - to fit the homogenous pulled diversification rate model on the data to assess general trends in pulled rates
 
 "7_make_plots_PR_JJ.R" - to make plots submitted with this manuscript
+
+##Graphs
