@@ -47,3 +47,4 @@ Although the code names are self-explanatory, here's a brief account of the acti
 "7_make_plots_PR_JJ.R" - to make plots submitted with this manuscript
 
 ## Graphs
+![Alt text](1_Conceptual figure2-1-1.png)
