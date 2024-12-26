@@ -46,6 +46,10 @@ Although the code names are self-explanatory, here's a brief account of the acti
 
 "7_make_plots_PR_JJ.R" - to make plots submitted with this manuscript
 
+"8_phyloANOVA_and_phyloRegression.R" - to perform standard and phylogenetic analysis of variance
+
+"9_simulate_trees_and_perform_model_fitting.R" - to simulate trees using RPANDA model parameters, check the propensity of the recovery of the starting model parameters and calculate the credibility of empirical estimates
+
 ## Graphs
 ![Alt text](https://github.com/pragyr/Diversification_Analysis_Peninsular_India/blob/main/1_Conceptual%20figure2-1-1.png)
 *A conceptual figure illustrating the predictions for the tempo and mode of diversification of endemic PI biota and the data used in the study*
