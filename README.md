@@ -3,6 +3,10 @@
 - [Pragyadeep Roy](https://sites.google.com/view/jahnavijoshi/team/phd-students#h.7rw6e76q98yf) (Orcid - [0009-0002-2215-2171](https://orcid.org/0009-0002-2215-2171), pragyadeep@csirccmb.org)
 - [Jahnavi Joshi](https://sites.google.com/view/jahnavijoshi/team/jahnavi-joshi#h.6x6n3sbsag2p) (Orcid - [0000-0002-6015-4138](https://orcid.org/0000-0002-6015-4138), jahnavi@csirccmb.org)
 
+## Versions used
+R version used: 4.4.1
+Julia version used: 1.11.4
+
 ## Relevant Manuscript Title:
 Idiosyncrasies unveiled: examining the pace, patterns and predictors of biotic diversification in peninsular India
 
