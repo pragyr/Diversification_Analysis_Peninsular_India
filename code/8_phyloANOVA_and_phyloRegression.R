@@ -9,25 +9,6 @@ library(maps)
 library(phytools)
 library(FSA)
 
-library(ggplot2)
-library(ggpubr)
-library(tidyverse)
-library(broom)
-library(AICcmodavg)
-library(olsrr)
-
-library(phyr)
-
-
-library(geiger)
-
-
-
-library(ggstatsplot)
-library(tidytree)
-
-library(ggdist)
-
 setwd("data/")
 
 options(scipen = 100,digits=7)
