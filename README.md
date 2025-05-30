@@ -4,7 +4,7 @@
 - [Jahnavi Joshi](https://sites.google.com/view/jahnavijoshi/team/jahnavi-joshi#h.6x6n3sbsag2p) (Orcid - [0000-0002-6015-4138](https://orcid.org/0000-0002-6015-4138), jahnavi@csirccmb.org)
 
 ## Versions used
-R version used: 4.4.1/
+R version used: 4.4.1\
 Julia version used: 1.11.4
 
 ## Relevant Manuscript Title:
