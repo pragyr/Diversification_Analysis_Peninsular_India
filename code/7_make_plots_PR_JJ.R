@@ -138,7 +138,7 @@ plg
 dev.off()
 ############################################################################################################################
 
-######################################## Figure 2: PhyloANOVA using clade rates ###########################################
+######################################## Figure 2: Boxplots and regression ###########################################
 tree = read.tree("SUPER_TREE.nwk")
 data2 <- read.csv("clads_tip_rates_with_attributes.csv")
 
@@ -328,6 +328,8 @@ p4 <- mk_pgls_plot(Net.diversification.rate..CoMET. ~ Crown.age..Mya.,
                    phy=tree,df.pgls = data,xlab="Clade Age (Mya)",
                    ylab="",
                    make.plot = TRUE,xlim.min=2,ylim.min=0)+
+  scale_x_continuous(limits = c(0,150))+
+  scale_y_continuous(limits = c(0,0.4))+
   theme(legend.position = c(0.585,0.85),legend.direction = "vertical",
         legend.box = "horizontal",legend.background = element_blank(),legend.text = element_text(size = 10),
         legend.box.background = element_rect(colour = "black",size = 0.1),
