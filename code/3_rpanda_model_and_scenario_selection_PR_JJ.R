@@ -953,7 +953,12 @@ main_func <- function(lineage.name){
   # The maximum age till the paleodata is available is a major constraint as it won't fit a lineage that is older than the maximium age in the paleodata.
   # Hence we need to break our phylogeny of interest into sub-clades and take the largest sub-clades that are younger than the maximum age in the paleodata.
   # Also, we are considering only those clades which have more than 10 tips for checking the influence of environmental variables in their diversification.
-  # We chose 10 tips as a filter because in our pilot analyses clades with less than 10 tips were showing errors while fitting the environmental models
+  # We chose 10 tips as a filter because in our pilot analyses clades with less than 10 tips were showing errors while fitting the environmental models.
+  
+  
+  # However for the final inference of the study we only used the clades as a whole, and not specific sub-clades within them to check the influence of
+  # an environmental variable. We have however retained the code that involves breaking a clade of interest into sub-clades which are younger than the
+  # age of an environmental variable
   ##################################### ONLY TEMPERATURE DEPENDENCE ###################################
   cat("\nChecking temperature dependence.....\n")
   
